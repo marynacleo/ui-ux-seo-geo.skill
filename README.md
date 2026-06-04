@@ -1,57 +1,84 @@
 # UI UX SEO GEO Skill
 
-This repository contains a Codex skill for working on websites, landing pages, web apps, and public-facing pages with an extra focus on UI, UX, SEO, and GEO.
+A Codex skill for creating and improving websites with stronger interface logic, clearer content, better search structure, and better visibility in AI-powered search.
 
-## What This Is
+Use it when you want Codex to think not only like a developer, but also like a UX reviewer, SEO strategist, and GEO content editor.
 
-A Codex skill is a small instruction folder. It tells Codex how to behave in a specific kind of task.
+## What It Helps With
 
-This skill helps Codex remember to check:
+This skill guides Codex to check four layers of a digital product:
 
-- whether a page is clear and easy to use;
-- whether the interface works well on mobile and desktop;
-- whether the page is structured well for search engines;
-- whether AI search and answer engines can understand the page clearly;
-- whether the content explains the offer, audience, proof points, and next action.
+- **UI**: visual hierarchy, layout, responsive behavior, accessibility, and interface clarity;
+- **UX**: user goals, page flow, calls to action, forms, states, and decision paths;
+- **SEO**: headings, metadata, internal structure, image alt text, schema opportunities, and search intent;
+- **GEO**: clarity for AI search and answer engines, including entities, summaries, proof points, FAQs, and answer-ready content.
 
-## What Is Public
+## Best For
 
-Only the files inside this GitHub repository are public.
+- landing pages;
+- service pages;
+- product pages;
+- portfolio pages;
+- content pages;
+- web apps with public-facing screens;
+- site audits and redesigns;
+- conversion-focused page improvements.
 
-This repository does not publish files from the whole computer. It only contains files that are intentionally added here.
+## Example Prompts
 
-Current public files:
+```text
+Build a landing page for my service and use the UI UX SEO GEO skill.
+```
 
-- `README.md` - this GitHub page;
-- `SKILL.md` - the actual Codex skill instructions.
+```text
+Review this website page for UX, SEO, and GEO issues.
+```
 
-## How Codex Uses It
+```text
+Improve this page so it is clearer for users and easier for AI search engines to understand.
+```
 
-Codex can use a skill only after the skill is installed or otherwise made available in the Codex skills folder.
+```text
+Create a homepage structure with strong UX, SEO headings, and GEO-friendly FAQs.
+```
 
-Putting `SKILL.md` on GitHub is step one. Installing it into Codex is step two.
+## What Codex Will Pay Attention To
 
-After installation, Codex can automatically trigger this skill when the task is about:
+When this skill is active, Codex is guided to ask and answer questions like:
 
-- building a website;
-- designing a landing page;
-- improving UI or UX;
-- reviewing SEO;
-- improving GEO for AI search;
-- making a page clearer, more useful, or easier to understand.
+- Can a visitor understand the page quickly?
+- Is the main action obvious?
+- Does the layout work on mobile and desktop?
+- Are headings useful for both humans and search engines?
+- Is the offer, audience, location, product, or service clearly stated?
+- Are important facts easy for AI systems to extract?
+- Are proof points, examples, and FAQs included where useful?
 
-## Suggested User Prompt
+## Installation
 
-Use this skill when I ask you to build, review, or improve a website, landing page, web app, service page, portfolio, or public-facing content. Pay attention to UI, UX, SEO, and GEO, and explain the practical improvements briefly.
+Install this repository as a Codex skill by placing it in your Codex skills folder:
 
-## Repository Structure
+```text
+~/.codex/skills/ui-ux-seo-geo
+```
+
+On Windows, the folder is usually:
+
+```text
+C:\Users\YourName\.codex\skills\ui-ux-seo-geo
+```
+
+Then restart Codex so the skill can be discovered.
+
+## Files
 
 ```text
 ui-ux-seo-geo.skill/
-  README.md
-  SKILL.md
+  SKILL.md              # Codex instructions
+  README.md             # public description
+  agents/openai.yaml    # display metadata
 ```
 
 ## Status
 
-The skill has a first working version. It can be improved over time with examples, checklists, brand preferences, and real project feedback.
+First working version. The skill can be expanded with real project examples, brand preferences, checklists, templates, and case-specific SEO/GEO patterns.
